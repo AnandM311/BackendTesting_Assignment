@@ -1,0 +1,8 @@
+https://reqres.in/api/users/
+https://reqres.in/api/users/3
+https://reqres.in/api/users/4
+https://reqres.in/api/users/5
+https://reqres.in/api/users?page=2
+https://reqres.in/api/users?page=2
+https://reqres.in/api/users/5
+https://reqres.in/api/users/5

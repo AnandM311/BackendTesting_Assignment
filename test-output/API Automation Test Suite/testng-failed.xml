@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [API Automation Test Suite]">
+  <test name="API Automation(failed)">
+    <classes>
+      <class name="com.qa.tests.TestApiResponse">
+        <methods>
+          <include name="testApiResponse"/>
+        </methods>
+      </class> <!-- com.qa.tests.TestApiResponse -->
+    </classes>
+  </test> <!-- API Automation(failed) -->
+</suite> <!-- Failed suite [API Automation Test Suite] -->
