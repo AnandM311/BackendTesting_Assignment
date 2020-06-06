@@ -23,13 +23,13 @@ public class FileRead {
 	Response response2;
 
 	public List<ApiUrl> fileRead(String file1path, String file2path) throws IOException {
-		File file = new File(file1path);
+		File file1 = new File(file1path);
 		File file2 = new File(file2path);
 		BufferedReader br = null;
 		BufferedReader br2 = null;
 		List<ApiUrl> apis = new ArrayList<FileRead.ApiUrl>();
 		try {
-			java.io.FileReader fr = new java.io.FileReader(file);
+			java.io.FileReader fr = new java.io.FileReader(file1);
 			br = new BufferedReader(fr);
 			java.io.FileReader fr2 = new java.io.FileReader(file2);
 			br2 = new BufferedReader(fr2);
@@ -46,7 +46,7 @@ public class FileRead {
 			}
 
 		} catch (FileNotFoundException e) {
-			System.out.println("File not found: " + file.toString());
+			System.out.println("File not found: " + file1.toString()+file2path.toString());
 		} finally {
 			br.close();
 			br2.close();
